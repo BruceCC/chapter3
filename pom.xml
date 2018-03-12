@@ -10,12 +10,19 @@
     <packaging>war</packaging>
 
     <dependencies>
+        <!-- SLF4J-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.7</version>
+        </dependency>
         <!-- Smart framework-->
         <dependency>
             <groupId>org.leave</groupId>
             <artifactId>smart-framework</artifactId>
             <version>1.0.0</version>
         </dependency>
+
     </dependencies>
 
 
