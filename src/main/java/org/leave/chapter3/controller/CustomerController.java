@@ -17,6 +17,15 @@ public class CustomerController {
     @Action("get:/customer")
     public View index(){
         List<Customer> customerList = customerService.getCustomerList();
-        return new View("customer.jsp").addModel("customerList", customerList);
+        return new View("test.html").addModel("customerList", customerList);
+    }
+
+    /**
+     * 测试页
+     */
+    @Action("get:/index")
+    public View test(){
+        /*List<Customer> customerList = customerService.getCustomerList();*/
+        return new View("index.jsp");
     }
 }
