@@ -27,7 +27,6 @@
 <body>
 
 <div id="wrapper">
-
     <jsp:include page="common/nav.jsp" flush="true" />
 
     <div id="page-wrapper">
